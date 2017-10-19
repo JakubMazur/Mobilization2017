@@ -10,6 +10,7 @@
 		DD2A77BD1F99044F00738BD3 /* Mobilization2017Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A77B31F99044F00738BD3 /* Mobilization2017Demo.framework */; };
 		DD2A77C21F99044F00738BD3 /* Mobilization2017DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A77C11F99044F00738BD3 /* Mobilization2017DemoTests.swift */; };
 		DD2A77C41F99044F00738BD3 /* Mobilization2017Demo.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2A77B61F99044F00738BD3 /* Mobilization2017Demo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD2A78081F9904E200738BD3 /* RoudedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A78071F9904E200738BD3 /* RoudedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		DD2A77BC1F99044F00738BD3 /* Mobilization2017DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mobilization2017DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2A77C11F99044F00738BD3 /* Mobilization2017DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobilization2017DemoTests.swift; sourceTree = "<group>"; };
 		DD2A77C31F99044F00738BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD2A78071F9904E200738BD3 /* RoudedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoudedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				DD2A77B61F99044F00738BD3 /* Mobilization2017Demo.h */,
 				DD2A77B71F99044F00738BD3 /* Info.plist */,
+				DD2A78071F9904E200738BD3 /* RoudedView.swift */,
 			);
 			path = Mobilization2017Demo;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					DD2A77B21F99044F00738BD3 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					DD2A77BB1F99044F00738BD3 = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2A78081F9904E200738BD3 /* RoudedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +339,7 @@
 		DD2A77C81F99044F00738BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pl.kettu.Mobilization2017Demo;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +362,7 @@
 		DD2A77C91F99044F00738BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +384,7 @@
 		DD2A77CB1F99044F00738BD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9232HDTN9M;
 				INFOPLIST_FILE = Mobilization2017DemoTests/Info.plist;
@@ -390,6 +399,7 @@
 		DD2A77CC1F99044F00738BD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9232HDTN9M;
 				INFOPLIST_FILE = Mobilization2017DemoTests/Info.plist;

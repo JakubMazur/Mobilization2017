@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Mobilization2017Demo.xcscheme</key>
+		<key>Mobilization2017Demo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DD2A77B21F99044F00738BD3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD2A77BB1F99044F00738BD3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
