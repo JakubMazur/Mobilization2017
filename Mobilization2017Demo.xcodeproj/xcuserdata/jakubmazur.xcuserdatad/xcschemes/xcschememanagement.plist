@@ -4,10 +4,15 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Mobilization2017Demo.xcscheme_^#shared#^_</key>
+		<key>Mobilization2017-iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Mobilization2017-macOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>DD2A77BB1F99044F00738BD3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD2A78111F99085000738BD3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

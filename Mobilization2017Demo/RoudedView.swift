@@ -6,13 +6,37 @@
 //  Copyright © 2017 Jakub Mazur. All rights reserved.
 //
 
-import UIKit
+#if os(macOS)
+    import AppKit
+    public typealias View = NSView
+    public typealias Color = NSColor
+#elseif os(iOS)
+    import UIKit
+    public typealias View = UIView
+    public typealias Color = UIColor
+#endif
 
-public class RoudedView: UIView {
+public class RoudedView: View {
     
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        self.backgroundColor = UIColor.red
-        self.layer.cornerRadius = self.frame.size.height/2
+    public override func awakeFromNib() {
+        super.awakeFromNib()
+        drawBorder(layer: layer)
+    }
+    
+    func drawBorder(layer: CALayer?) {
+        guard let myLayer = layer else { return }
+        myLayer.borderColor = Color.red.cgColor
+        myLayer.borderWidth = 10
+        myLayer.add(viewAnimation(), forKey: "backgroundColor")
+    }
+    
+    func viewAnimation() -> CABasicAnimation {
+        let animation = CABasicAnimation()
+        animation.keyPath = "backgroundColor"
+        animation.fromValue = Color.red.cgColor
+        animation.toValue = Color.blue.cgColor
+        animation.duration = 5
+        animation.repeatCount = .infinity
+        return animation
     }
 }
