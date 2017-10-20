@@ -13,6 +13,20 @@
 		DD2A78081F9904E200738BD3 /* RoudedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A78071F9904E200738BD3 /* RoudedView.swift */; };
 		DD2A78161F99085100738BD3 /* Mobilization2017_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2A78141F99085000738BD3 /* Mobilization2017_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD2A781A1F99087100738BD3 /* RoudedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A78071F9904E200738BD3 /* RoudedView.swift */; };
+		DD7DEB0D1F9A754F00C1068F /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DEB0C1F9A754F00C1068F /* SomeView.swift */; };
+		DD7DEB151F9A76DA00C1068F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DEB141F9A76DA00C1068F /* AppDelegate.swift */; };
+		DD7DEB171F9A76DA00C1068F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DEB161F9A76DA00C1068F /* ViewController.swift */; };
+		DD7DEB1A1F9A76DA00C1068F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7DEB181F9A76DA00C1068F /* Main.storyboard */; };
+		DD7DEB1C1F9A76DA00C1068F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7DEB1B1F9A76DA00C1068F /* Assets.xcassets */; };
+		DD7DEB1F1F9A76DA00C1068F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7DEB1D1F9A76DA00C1068F /* LaunchScreen.storyboard */; };
+		DD7DEB2B1F9A770700C1068F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DEB2A1F9A770700C1068F /* AppDelegate.swift */; };
+		DD7DEB2D1F9A770700C1068F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DEB2C1F9A770700C1068F /* ViewController.swift */; };
+		DD7DEB2F1F9A770700C1068F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD7DEB2E1F9A770700C1068F /* Assets.xcassets */; };
+		DD7DEB321F9A770700C1068F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD7DEB301F9A770700C1068F /* Main.storyboard */; };
+		DD7FDDB41F9A7B3800971CC1 /* Mobilization2017_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A78121F99085000738BD3 /* Mobilization2017_macOS.framework */; };
+		DD7FDDB51F9A7B3800971CC1 /* Mobilization2017_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A78121F99085000738BD3 /* Mobilization2017_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD7FDDB91F9A7B3D00971CC1 /* Mobilization2017_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A77B31F99044F00738BD3 /* Mobilization2017_iOS.framework */; };
+		DD7FDDBA1F9A7B3D00971CC1 /* Mobilization2017_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A77B31F99044F00738BD3 /* Mobilization2017_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +37,46 @@
 			remoteGlobalIDString = DD2A77B21F99044F00738BD3;
 			remoteInfo = Mobilization2017Demo;
 		};
+		DD7FDDB61F9A7B3800971CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2A77AA1F99044F00738BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2A78111F99085000738BD3;
+			remoteInfo = "Mobilization2017-macOS";
+		};
+		DD7FDDBB1F9A7B3D00971CC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD2A77AA1F99044F00738BD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD2A77B21F99044F00738BD3;
+			remoteInfo = "Mobilization2017-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DD7FDDB81F9A7B3800971CC1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD7FDDB51F9A7B3800971CC1 /* Mobilization2017_macOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7FDDBD1F9A7B3D00971CC1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DD7FDDBA1F9A7B3D00971CC1 /* Mobilization2017_iOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DD2A77B31F99044F00738BD3 /* Mobilization2017_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mobilization2017_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +89,21 @@
 		DD2A78121F99085000738BD3 /* Mobilization2017_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mobilization2017_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2A78141F99085000738BD3 /* Mobilization2017_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mobilization2017_macOS.h; sourceTree = "<group>"; };
 		DD2A78151F99085100738BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7DEB0C1F9A754F00C1068F /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
+		DD7DEB121F9A76DA00C1068F /* Mobilization2017iOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobilization2017iOSDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7DEB141F9A76DA00C1068F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD7DEB161F9A76DA00C1068F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD7DEB191F9A76DA00C1068F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD7DEB1B1F9A76DA00C1068F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD7DEB1E1F9A76DA00C1068F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD7DEB201F9A76DA00C1068F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7DEB281F9A770700C1068F /* Mobilization2017macDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobilization2017macDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD7DEB2A1F9A770700C1068F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD7DEB2C1F9A770700C1068F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD7DEB2E1F9A770700C1068F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD7DEB311F9A770700C1068F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD7DEB331F9A770700C1068F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD7DEB341F9A770700C1068F /* Mobilization2017macDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mobilization2017macDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +129,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD7DEB0F1F9A76DA00C1068F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FDDB91F9A7B3D00971CC1 /* Mobilization2017_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7DEB251F9A770700C1068F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7FDDB41F9A7B3800971CC1 /* Mobilization2017_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -70,6 +154,8 @@
 				DD2A77B51F99044F00738BD3 /* Mobilization2017Demo */,
 				DD2A77C01F99044F00738BD3 /* Mobilization2017DemoTests */,
 				DD2A78131F99085000738BD3 /* Mobilization2017-macOS */,
+				DD7DEB131F9A76DA00C1068F /* Mobilization2017iOSDemo */,
+				DD7DEB291F9A770700C1068F /* Mobilization2017macDemo */,
 				DD2A77B41F99044F00738BD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +166,8 @@
 				DD2A77B31F99044F00738BD3 /* Mobilization2017_iOS.framework */,
 				DD2A77BC1F99044F00738BD3 /* Mobilization2017DemoTests.xctest */,
 				DD2A78121F99085000738BD3 /* Mobilization2017_macOS.framework */,
+				DD7DEB121F9A76DA00C1068F /* Mobilization2017iOSDemo.app */,
+				DD7DEB281F9A770700C1068F /* Mobilization2017macDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -90,6 +178,7 @@
 				DD2A77B61F99044F00738BD3 /* Mobilization2017Demo.h */,
 				DD2A77B71F99044F00738BD3 /* Info.plist */,
 				DD2A78071F9904E200738BD3 /* RoudedView.swift */,
+				DD7DEB0C1F9A754F00C1068F /* SomeView.swift */,
 			);
 			path = Mobilization2017Demo;
 			sourceTree = "<group>";
@@ -110,6 +199,32 @@
 				DD2A78151F99085100738BD3 /* Info.plist */,
 			);
 			path = "Mobilization2017-macOS";
+			sourceTree = "<group>";
+		};
+		DD7DEB131F9A76DA00C1068F /* Mobilization2017iOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DD7DEB141F9A76DA00C1068F /* AppDelegate.swift */,
+				DD7DEB161F9A76DA00C1068F /* ViewController.swift */,
+				DD7DEB181F9A76DA00C1068F /* Main.storyboard */,
+				DD7DEB1B1F9A76DA00C1068F /* Assets.xcassets */,
+				DD7DEB1D1F9A76DA00C1068F /* LaunchScreen.storyboard */,
+				DD7DEB201F9A76DA00C1068F /* Info.plist */,
+			);
+			path = Mobilization2017iOSDemo;
+			sourceTree = "<group>";
+		};
+		DD7DEB291F9A770700C1068F /* Mobilization2017macDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DD7DEB2A1F9A770700C1068F /* AppDelegate.swift */,
+				DD7DEB2C1F9A770700C1068F /* ViewController.swift */,
+				DD7DEB2E1F9A770700C1068F /* Assets.xcassets */,
+				DD7DEB301F9A770700C1068F /* Main.storyboard */,
+				DD7DEB331F9A770700C1068F /* Info.plist */,
+				DD7DEB341F9A770700C1068F /* Mobilization2017macDemo.entitlements */,
+			);
+			path = Mobilization2017macDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +303,44 @@
 			productReference = DD2A78121F99085000738BD3 /* Mobilization2017_macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		DD7DEB111F9A76DA00C1068F /* Mobilization2017iOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7DEB211F9A76DA00C1068F /* Build configuration list for PBXNativeTarget "Mobilization2017iOSDemo" */;
+			buildPhases = (
+				DD7DEB0E1F9A76DA00C1068F /* Sources */,
+				DD7DEB0F1F9A76DA00C1068F /* Frameworks */,
+				DD7DEB101F9A76DA00C1068F /* Resources */,
+				DD7FDDBD1F9A7B3D00971CC1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7FDDBC1F9A7B3D00971CC1 /* PBXTargetDependency */,
+			);
+			name = Mobilization2017iOSDemo;
+			productName = Mobilization2017iOSDemo;
+			productReference = DD7DEB121F9A76DA00C1068F /* Mobilization2017iOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD7DEB271F9A770700C1068F /* Mobilization2017macDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD7DEB351F9A770700C1068F /* Build configuration list for PBXNativeTarget "Mobilization2017macDemo" */;
+			buildPhases = (
+				DD7DEB241F9A770700C1068F /* Sources */,
+				DD7DEB251F9A770700C1068F /* Frameworks */,
+				DD7DEB261F9A770700C1068F /* Resources */,
+				DD7FDDB81F9A7B3800971CC1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD7FDDB71F9A7B3800971CC1 /* PBXTargetDependency */,
+			);
+			name = Mobilization2017macDemo;
+			productName = Mobilization2017macDemo;
+			productReference = DD7DEB281F9A770700C1068F /* Mobilization2017macDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +364,14 @@
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
+					DD7DEB111F9A76DA00C1068F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					DD7DEB271F9A770700C1068F = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = DD2A77AD1F99044F00738BD3 /* Build configuration list for PBXProject "Mobilization2017Demo" */;
@@ -219,6 +380,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = DD2A77A91F99044F00738BD3;
 			productRefGroup = DD2A77B41F99044F00738BD3 /* Products */;
@@ -228,6 +390,8 @@
 				DD2A77B21F99044F00738BD3 /* Mobilization2017-iOS */,
 				DD2A78111F99085000738BD3 /* Mobilization2017-macOS */,
 				DD2A77BB1F99044F00738BD3 /* Mobilization2017DemoTests */,
+				DD7DEB111F9A76DA00C1068F /* Mobilization2017iOSDemo */,
+				DD7DEB271F9A770700C1068F /* Mobilization2017macDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -254,6 +418,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD7DEB101F9A76DA00C1068F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7DEB1F1F9A76DA00C1068F /* LaunchScreen.storyboard in Resources */,
+				DD7DEB1C1F9A76DA00C1068F /* Assets.xcassets in Resources */,
+				DD7DEB1A1F9A76DA00C1068F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7DEB261F9A770700C1068F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7DEB2F1F9A770700C1068F /* Assets.xcassets in Resources */,
+				DD7DEB321F9A770700C1068F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -261,6 +444,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7DEB0D1F9A754F00C1068F /* SomeView.swift in Sources */,
 				DD2A78081F9904E200738BD3 /* RoudedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +465,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DD7DEB0E1F9A76DA00C1068F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7DEB171F9A76DA00C1068F /* ViewController.swift in Sources */,
+				DD7DEB151F9A76DA00C1068F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7DEB241F9A770700C1068F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7DEB2D1F9A770700C1068F /* ViewController.swift in Sources */,
+				DD7DEB2B1F9A770700C1068F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,7 +491,44 @@
 			target = DD2A77B21F99044F00738BD3 /* Mobilization2017-iOS */;
 			targetProxy = DD2A77BE1F99044F00738BD3 /* PBXContainerItemProxy */;
 		};
+		DD7FDDB71F9A7B3800971CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2A78111F99085000738BD3 /* Mobilization2017-macOS */;
+			targetProxy = DD7FDDB61F9A7B3800971CC1 /* PBXContainerItemProxy */;
+		};
+		DD7FDDBC1F9A7B3D00971CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD2A77B21F99044F00738BD3 /* Mobilization2017-iOS */;
+			targetProxy = DD7FDDBB1F9A7B3D00971CC1 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD7DEB181F9A76DA00C1068F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7DEB191F9A76DA00C1068F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD7DEB1D1F9A76DA00C1068F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7DEB1E1F9A76DA00C1068F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DD7DEB301F9A770700C1068F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD7DEB311F9A770700C1068F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD2A77C51F99044F00738BD3 /* Debug */ = {
@@ -528,6 +767,78 @@
 			};
 			name = Release;
 		};
+		DD7DEB221F9A76DA00C1068F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				INFOPLIST_FILE = Mobilization2017iOSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.Mobilization2017iOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD7DEB231F9A76DA00C1068F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				INFOPLIST_FILE = Mobilization2017iOSDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.Mobilization2017iOSDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD7DEB361F9A770700C1068F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mobilization2017macDemo/Mobilization2017macDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				INFOPLIST_FILE = Mobilization2017macDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.Mobilization2017macDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DD7DEB371F9A770700C1068F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Mobilization2017macDemo/Mobilization2017macDemo.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9232HDTN9M;
+				INFOPLIST_FILE = Mobilization2017macDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = de.wingu.Mobilization2017macDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -563,6 +874,24 @@
 			buildConfigurations = (
 				DD2A78181F99085100738BD3 /* Debug */,
 				DD2A78191F99085100738BD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7DEB211F9A76DA00C1068F /* Build configuration list for PBXNativeTarget "Mobilization2017iOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7DEB221F9A76DA00C1068F /* Debug */,
+				DD7DEB231F9A76DA00C1068F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD7DEB351F9A770700C1068F /* Build configuration list for PBXNativeTarget "Mobilization2017macDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD7DEB361F9A770700C1068F /* Debug */,
+				DD7DEB371F9A770700C1068F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

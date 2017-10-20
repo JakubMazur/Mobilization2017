@@ -6,6 +6,8 @@
 //  Copyright © 2017 Jakub Mazur. All rights reserved.
 //
 
+/*
+
 #if os(macOS)
     import AppKit
     public typealias View = NSView
@@ -40,3 +42,5 @@ public class RoudedView: View {
         return animation
     }
 }
+
+ */

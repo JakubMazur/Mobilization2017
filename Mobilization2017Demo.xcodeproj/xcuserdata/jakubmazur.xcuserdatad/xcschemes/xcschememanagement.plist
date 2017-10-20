@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Mobilization2017iOSDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Mobilization2017macDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -28,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>DD2A78111F99085000738BD3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD7DEB111F9A76DA00C1068F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
