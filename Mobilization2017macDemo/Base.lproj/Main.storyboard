@@ -711,7 +711,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="501" height="274"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AvF-ZK-Gjs">
+                            <customView wantsLayer="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AvF-ZK-Gjs" customClass="SomeView" customModule="Mobilization2017_macOS">
                                 <rect key="frame" x="125" y="12" width="251" height="251"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="AvF-ZK-Gjs" secondAttribute="height" multiplier="1:1" id="Q4H-O0-i3W"/>

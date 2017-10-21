@@ -10,9 +10,7 @@
 		DD2A77BD1F99044F00738BD3 /* Mobilization2017_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A77B31F99044F00738BD3 /* Mobilization2017_iOS.framework */; };
 		DD2A77C21F99044F00738BD3 /* Mobilization2017DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A77C11F99044F00738BD3 /* Mobilization2017DemoTests.swift */; };
 		DD2A77C41F99044F00738BD3 /* Mobilization2017Demo.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2A77B61F99044F00738BD3 /* Mobilization2017Demo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2A78081F9904E200738BD3 /* RoudedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A78071F9904E200738BD3 /* RoudedView.swift */; };
 		DD2A78161F99085100738BD3 /* Mobilization2017_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2A78141F99085000738BD3 /* Mobilization2017_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD2A781A1F99087100738BD3 /* RoudedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2A78071F9904E200738BD3 /* RoudedView.swift */; };
 		DD7DEB0D1F9A754F00C1068F /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DEB0C1F9A754F00C1068F /* SomeView.swift */; };
 		DD7DEB151F9A76DA00C1068F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DEB141F9A76DA00C1068F /* AppDelegate.swift */; };
 		DD7DEB171F9A76DA00C1068F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DEB161F9A76DA00C1068F /* ViewController.swift */; };
@@ -27,6 +25,7 @@
 		DD7FDDB51F9A7B3800971CC1 /* Mobilization2017_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A78121F99085000738BD3 /* Mobilization2017_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DD7FDDB91F9A7B3D00971CC1 /* Mobilization2017_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A77B31F99044F00738BD3 /* Mobilization2017_iOS.framework */; };
 		DD7FDDBA1F9A7B3D00971CC1 /* Mobilization2017_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A77B31F99044F00738BD3 /* Mobilization2017_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD7FDDC21F9B65A200971CC1 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7DEB0C1F9A754F00C1068F /* SomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,7 +84,6 @@
 		DD2A77BC1F99044F00738BD3 /* Mobilization2017DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mobilization2017DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2A77C11F99044F00738BD3 /* Mobilization2017DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobilization2017DemoTests.swift; sourceTree = "<group>"; };
 		DD2A77C31F99044F00738BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD2A78071F9904E200738BD3 /* RoudedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoudedView.swift; sourceTree = "<group>"; };
 		DD2A78121F99085000738BD3 /* Mobilization2017_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mobilization2017_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD2A78141F99085000738BD3 /* Mobilization2017_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mobilization2017_macOS.h; sourceTree = "<group>"; };
 		DD2A78151F99085100738BD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -177,7 +175,6 @@
 			children = (
 				DD2A77B61F99044F00738BD3 /* Mobilization2017Demo.h */,
 				DD2A77B71F99044F00738BD3 /* Info.plist */,
-				DD2A78071F9904E200738BD3 /* RoudedView.swift */,
 				DD7DEB0C1F9A754F00C1068F /* SomeView.swift */,
 			);
 			path = Mobilization2017Demo;
@@ -445,7 +442,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD7DEB0D1F9A754F00C1068F /* SomeView.swift in Sources */,
-				DD2A78081F9904E200738BD3 /* RoudedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +457,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD2A781A1F99087100738BD3 /* RoudedView.swift in Sources */,
+				DD7FDDC21F9B65A200971CC1 /* SomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
